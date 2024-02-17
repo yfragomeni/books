@@ -8,4 +8,8 @@ jobs:
         run: echo "Hello World!"
       - name: Feel the feels
         run: echo "Program to serve and not to feel ˜"
+      - name: Do I have a lot to say?
+        run: |
+            echo "Yes! I do"
+            echo "But maybe some other time :)"
       
