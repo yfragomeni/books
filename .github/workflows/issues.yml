@@ -8,4 +8,3 @@ jobs:
     steps:
       - name: Echo Issue
         run: echo "${{ toJSON(github.event.issue) }}"
-```
