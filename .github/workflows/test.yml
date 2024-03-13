@@ -1,0 +1,11 @@
+name: Simple test workflow on push
+on:
+  push:
+    branches:
+      - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello
+        run: echo "Hello, world!"
